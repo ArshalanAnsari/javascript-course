@@ -35,7 +35,12 @@
 // console.log(value1||value4);
 // console.log(value1||value2);
 
-let loggedin=true
-let gmailAccount=true;
-let emailAccount=false;
-console.log(gmailAccount||emailAccount);
+// let loggedin=true
+// let gmailAccount=true;
+// let emailAccount=false;
+// console.log(gmailAccount||emailAccount);
+
+const add =(a,b)=>{
+    return a+b;
+}
+console.log(add(4,6));
